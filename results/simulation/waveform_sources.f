@@ -1,0 +1,15 @@
+rtl/common/mode_controller.v
+rtl/common/operand_formatter.v
+rtl/common/booth_encoder_r4.v
+rtl/common/partial_product_generator.v
+rtl/common/csa.v
+rtl/common/wallace_tree_32.v
+rtl/common/cla_4bit.v
+rtl/common/cla_64bit.v
+rtl/common/acc.v
+rtl/common/adaptive_mac_top.v
+rtl/common/adaptive_processing_element.v
+rtl/common/adaptive_precision_accumulator.v
+rtl/systolic_array/2x2/adaptive_systolic_array_2x2.v
+rtl/systolic_array/2x2/systolic_array_2x2_accum_top.v
+results/simulation/waveform_tb.v

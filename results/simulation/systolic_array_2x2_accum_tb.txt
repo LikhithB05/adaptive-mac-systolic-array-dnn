@@ -1,0 +1,12 @@
+[PASS] Test 1.1: Zero Operands (accum=0)
+PE00 (C00): 19 (Expected: 19)
+PE01 (C01): 22 (Expected: 22)
+PE10 (C10): 43 (Expected: 43)
+PE11 (C11): 50 (Expected: 50)
+[PASS] Test 1.2: 2x2 Matrix Multiplication Passed with Exact Matrix Elements!
+[PASS] Test 1.3: Enable Pause (ACC held constant at 69)
+[PASS] Test 1.4: Synchronous Clear (ACC reset to 0)
+[PASS] Test 2.1: 2-Channel Parallel MNIST Golden Checkpoint Exactly Matched (3995709172)!
+Total Test Suites Run : 5
+Total Failures        : 0
+STATUS                : >>> PASS <<<

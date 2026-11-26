@@ -1,0 +1,9 @@
+top,PEs,LUT,FF,slices,CARRY4,DSP,IOB,dynamic_W,static_W,total_W,path_ns,start,end,WNS_ns,WHS_ns,path_class
+adaptive_mac_array_2x2,4,9408,0,2660,625,0,0,0.034,0.122,0.156,34.453,A3[20],dot_product_out[65],inf,inf,port to port
+adaptive_mac_array_4x4,16,37710,0,10617,2551,0,0,0.136,0.122,0.258,41.323,B15[20],dot_product_out[67],inf,inf,port to port
+adaptive_systolic_array_2x2,4,9352,128,2659,625,0,0,0.035,0.122,0.157,0.787,reset,PE00/A_out_reg[0]/CLR,inf,inf,async reset to CLR
+adaptive_systolic_array_4x4,16,36814,800,10279,2551,0,0,0.142,0.122,0.264,5.245,PE30/A_out_reg[9]/C,PE31/A_out_reg[9]/D,77.971,0.169,register to register
+mac_array_2x2_accum_top,4,9950,406,2787,825,0,0,0.040,0.122,0.162,4.349,u_accum_pe0/accum_out_reg[1]/C,u_accum_pe0/overflow_flag_reg/D,78.981,0.181,register to register
+mac_array_4x4_accum_top,16,39564,1378,11076,3231,0,0,0.158,0.122,0.280,4.835,GEN_PE_ACCUM[1].u_pe_accum/accum_out_reg[0]/C,GEN_PE_ACCUM[1].u_pe_accum/overflow_flag_reg/D,78.453,0.184,register to register
+systolic_array_2x2_accum_top,4,9952,534,2783,825,0,0,0.040,0.122,0.162,32.305,u_sys_array/PE10/A_out_reg[7]/C,u_accum_sum/overflow_flag_reg/D,50.983,0.205,register to register
+systolic_array_4x4_accum_top,16,39537,2178,10934,3231,0,0,0.166,0.122,0.288,41.314,u_sys_array/PE31/A_out_reg[12]/C,u_accum_sum/overflow_flag_reg/D,41.974,0.166,register to register

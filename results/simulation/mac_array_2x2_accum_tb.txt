@@ -1,0 +1,10 @@
+[PASS] Test 1.1: Zero Operands (DP=0, ACC=0)
+[PASS] Test 1.2: Mixed Signs (cla: 20, -60, -75, 56 -> DP=-59, ACC=-59)
+[PASS] Test 1.3: Enable Pause (ACC held constant at -59)
+[PASS] Test 1.4: Synchronous Clear (ACC reset to 0)
+[PASS] Test 1.5: Precision Modes correctly detected: m0=00(8b), m1=01(16b), m2=10(32b)
+>>> [PASS] MANDATORY CHECKPOINT 3995709172 PASSED EXACTLY ON mac_array_2x2_accum_top! <<<
+[PASS] Invariant Verified: accum_dot_product_out == sum(accum_pe[0..3])
+Total Test Suites Run : 7
+Total Failures        : 0
+STATUS                : >>> PASS <<<
